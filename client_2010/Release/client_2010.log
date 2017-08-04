@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016-7-3 9:52:36。
+     1>项目“E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\client_2010\client_2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\client_2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\software\vs2010\VS2010ProTrialCHS\install\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\client\client.cpp
+         client.cpp
+         d:\software\vs2010\VS2010ProTrialCHS\install\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\fsu(fast safe udp)\fsu.c"
+         fsu.c
+     1>..\fsu(fast safe udp)\fsu.c(44): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>..\fsu(fast safe udp)\fsu.c(194): warning C4013: “vsprintf”未定义；假设外部返回 int
+     1>..\fsu(fast safe udp)\fsu.c(250): warning C4101: “i”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(371): warning C4013: “printf”未定义；假设外部返回 int
+     1>..\fsu(fast safe udp)\fsu.c(307): warning C4101: “datalen”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(306): warning C4101: “sign”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(420): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\fsu(fast safe udp)\fsu.c(415): warning C4101: “datalen”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(442): warning C4101: “count”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(488): warning C4101: “i”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(488): warning C4101: “len”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(487): warning C4101: “seq”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(487): warning C4101: “ack”: 未引用的局部变量
+     1>..\fsu(fast safe udp)\fsu.c(549): warning C4101: “i”: 未引用的局部变量
+       Link:
+         d:\software\vs2010\VS2010ProTrialCHS\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\Release\client_2010.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\client_2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\Release\client_2010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\Release\client_2010.lib" /MACHINE:X86 Release\client.obj
+         Release\fsu.obj
+         正在生成代码
+     1>e:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\fsu(fast safe udp)\fsu.c(526): warning C4700: 使用了未初始化的局部变量“now”
+         已完成代码的生成
+         client_2010.vcxproj -> E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\Release\client_2010.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\Release\client_2010.exe;#1" /manifest Release\client_2010.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\client_2010.unsuccessfulbuild”。
+         正在对“Release\client_2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\study\vs2010\fsu_master(3)\fsu_master(1)\fsu_master\client_2010\client_2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.92

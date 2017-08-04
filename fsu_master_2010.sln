@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fsu(fast safe udp)_2010", "fsu(fast safe udp)_2010\fsu(fast safe udp)_2010.vcxproj", "{EC49B1F3-D8CE-4041-BF75-1309B95942CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server_2010", "server_2010\server_2010.vcxproj", "{C8602C29-56BE-4D6C-909A-01A9A4AD2EB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client_2010", "client_2010\client_2010.vcxproj", "{51049567-A104-463D-BA89-9FF876B50834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC49B1F3-D8CE-4041-BF75-1309B95942CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC49B1F3-D8CE-4041-BF75-1309B95942CA}.Debug|Win32.Build.0 = Debug|Win32
+		{EC49B1F3-D8CE-4041-BF75-1309B95942CA}.Release|Win32.ActiveCfg = Release|Win32
+		{EC49B1F3-D8CE-4041-BF75-1309B95942CA}.Release|Win32.Build.0 = Release|Win32
+		{C8602C29-56BE-4D6C-909A-01A9A4AD2EB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8602C29-56BE-4D6C-909A-01A9A4AD2EB1}.Debug|Win32.Build.0 = Debug|Win32
+		{C8602C29-56BE-4D6C-909A-01A9A4AD2EB1}.Release|Win32.ActiveCfg = Release|Win32
+		{C8602C29-56BE-4D6C-909A-01A9A4AD2EB1}.Release|Win32.Build.0 = Release|Win32
+		{51049567-A104-463D-BA89-9FF876B50834}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51049567-A104-463D-BA89-9FF876B50834}.Debug|Win32.Build.0 = Debug|Win32
+		{51049567-A104-463D-BA89-9FF876B50834}.Release|Win32.ActiveCfg = Release|Win32
+		{51049567-A104-463D-BA89-9FF876B50834}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
